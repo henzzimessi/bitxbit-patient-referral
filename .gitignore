@@ -1,0 +1,89 @@
+# ------------------------------
+# .NET build outputs
+# ------------------------------
+bin/
+obj/
+out/
+publish/
+artifacts/
+
+# Test results / coverage
+TestResults/
+coverage/
+coverage-*/
+*.coverage
+*.coveragexml
+*.trx
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# User / IDE-specific files
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code local workspace files
+.vscode/
+!.vscode/extensions.json
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Local appsettings overrides / secrets
+appsettings.Local.json
+appsettings.*.local.json
+
+# Docker local overrides
+docker-compose.override.yml
+
+# Generated caches / temp
+*.cache
+*.tmp
+*.temp
+*.pid
+*.seed
+
+# Node artifacts (if ever added for tooling)
+node_modules/
+
+# Python artifacts (if ever added for tooling)
+__pycache__/
+*.pyc
+
+# Misc package manager caches
+.pnpm-store/
+.npm/
+.yarn/
+
+# Backup / patch files
+*.bak
+*.orig
+*.rej
+
+# Copilot / editor chat temp exports (if created locally outside workspace)
+*.code-workspace
